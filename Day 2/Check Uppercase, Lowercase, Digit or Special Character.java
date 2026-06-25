@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CheckChar {
+class CheckUpperLowerDigitSpecial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char ch = sc.next().charAt(0);
@@ -11,5 +11,6 @@ class CheckChar {
             System.out.println("Digit");
         else
             System.out.println("Special Character");
+        sc.close();
     }
 }
