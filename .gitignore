@@ -1,7 +1,8 @@
-.idea/
+﻿*.class
 *.iml
+.idea/
 .vscode/
 out/
-*.class
-.DS_Store
-Thumbs.db
+bin/
+target/
+build/
